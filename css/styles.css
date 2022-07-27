@@ -1,0 +1,193 @@
+/* htnl tags */
+
+body {
+    font-family: "montserrat";
+    font-weight: 400;
+    text-align: center;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+/* over-all padding */
+
+.container{
+    padding: 7% 15%;
+}
+
+/* over-all color section */
+
+.colored-section{
+    background-color: #FF4C68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* title section */
+
+#title .container {
+    padding: 3% 10%;
+}
+
+/* navbar section */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+/* big heading text and download-btn section */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #222;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.content-align {
+    text-align: left;
+}
+
+/* header image section */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    position: relative;
+    left: 10;
+}
+
+/* feature section  */
+
+#features {
+    position: relative;
+    top: -200px;
+}
+
+.feature-box {
+    padding: 2%;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.box-icon {
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+
+.box-icon:hover {
+    color: #FF4C68;
+}
+
+/* testimonial section  */
+
+#testimonials {
+    background-color: #EF8172;
+    position: relative;
+    margin-top: -150px;
+}
+
+.testimonial-text {
+    font-weight: 600;
+    font-size: 2.9rem;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 200%;
+    margin: 20px;
+}
+
+/* press section  */
+
+#press {
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* pricing section  */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.price-head {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+/* cta footer section  */
+
+.cta-heading {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* responsive media section  */
+
+@media (max-width: 1020px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    .content-align {
+        text-align: center;
+    }
+
+    #features {
+        position: static;
+    }
+
+    #testimonials {
+        position: static;
+        margin-top: 50px;
+    }
+}
